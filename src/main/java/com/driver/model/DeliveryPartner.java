@@ -1,8 +1,8 @@
-package com.driver;
+package com.driver.model;
 
 public class DeliveryPartner {
 
-    private String id;
+    private final String id;
     private int numberOfOrders;
 
     public DeliveryPartner(String id) {
